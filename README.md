@@ -3,6 +3,15 @@
 Arquivo SQL contendo o código IBGE, nome do município, código UF, UF, estado, latitude e longitude.
 
 **Exemplo**:
+
+| Código IBGE |  Nome do Município  | Código UF | UF |    Estado    | Latitude | Longitude |
+|:-----------:|:-------------------:|:---------:|:--:|:------------:|:--------:|:---------:|
+|   5200050   | Abadia de Goiás     |     52    | GO | Goiás        | -16.7573 |  -49.4412 |
+|   3100104   | Abadia dos Dourados |     31    | MG | Minas Gerais | -18.4831 |  -47.3916 |
+|   5200100   | Abadiânia           |     52    | GO | Goiás        |  -16.197 |  -48.7057 |
+|   3100203   | Abaeté              |     31    | MG | Minas Gerais | -19.1551 |  -45.4444 |
+
+**SQL**:
 ```sql
 (5200050, "Abadia de Goiás", 52, "GO", "Goiás", -16.7573, -49.4412),
 (3100104, "Abadia dos Dourados", 31, "MG", "Minas Gerais", -18.4831, -47.3916),
