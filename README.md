@@ -8,14 +8,14 @@ Arquivo SQL contendo o código IBGE, nome do município, código UF, UF, estado,
 |:-----------:|:-------------------:|:---------:|:--:|:------------:|:--------:|:---------:|
 |   5200050   | Abadia de Goiás     |     52    | GO | Goiás        | -16.7573 |  -49.4412 |
 |   3100104   | Abadia dos Dourados |     31    | MG | Minas Gerais | -18.4831 |  -47.3916 |
-|   5200100   | Abadiânia           |     52    | GO | Goiás        |  -16.197 |  -48.7057 |
+|   5200100   | Abadiânia           |     52    | GO | Goiás        |  -16.1970 |  -48.7057 |
 |   3100203   | Abaeté              |     31    | MG | Minas Gerais | -19.1551 |  -45.4444 |
 
 **SQL**:
 ```sql
 (5200050, "Abadia de Goiás", 52, "GO", "Goiás", -16.7573, -49.4412),
 (3100104, "Abadia dos Dourados", 31, "MG", "Minas Gerais", -18.4831, -47.3916),
-(5200100, "Abadiânia", 52, "GO", "Goiás", -16.197, -48.7057),
+(5200100, "Abadiânia", 52, "GO", "Goiás", -16.1970, -48.7057),
 (3100203, "Abaeté", 31, "MG", "Minas Gerais", -19.1551, -45.4444),
 (1500107, "Abaetetuba", 15, "PA", "Pará", -1.72183, -48.8788),
 (2300101, "Abaiara", 23, "CE", "Ceará", -7.34588, -39.0416),
@@ -24,4 +24,4 @@ Arquivo SQL contendo o código IBGE, nome do município, código UF, UF, estado,
 (4100103, "Abatiá", 41, "PR", "Paraná", -23.3049, -50.3133),
 ```
 
-**Atenção**: utilizei dados de 3 tabelas diferentes, então podem haver dados inconsistentes. Caso encontre algum sinta-se à vontade para submeter um pull request ou criar um issue.
+**Nota**: caso encontre qualquer dado inconsistente por favor crie um issue ou envie um pull request diretamente.
