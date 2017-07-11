@@ -4914,7 +4914,7 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (3551405, "Serra Azul", 35, "SP", "São Paulo", -21.3074, -47.5602),
 (3166501, "Serra Azul de Minas", 31, "MG", "Minas Gerais", -18.3602, -43.1675),
 (2515500, "Serra Branca", 25, "PB", "Paraíba", -7.48034, -36.666),
-(2410306, "Serra Caiada", 24, "RN", "Rio Grande do Norte", -6.10478, -35.71126)
+(2410306, "Serra Caiada", 24, "RN", "Rio Grande do Norte", -6.10478, -35.71126),
 (2515609, "Serra da Raiz", 25, "PB", "Paraíba", -6.68527, -35.4379),
 (3166600, "Serra da Saudade", 31, "MG", "Minas Gerais", -19.4447, -45.795),
 (2413300, "Serra de São Bento", 24, "RN", "Rio Grande do Norte", -6.41762, -35.7033),
