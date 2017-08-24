@@ -3074,7 +3074,7 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (2509404, "Mogeiro", 25, "PB", "Paraíba", -7.28517, -35.4832),
 (3530607, "Mogi das Cruzes", 35, "SP", "São Paulo", -23.5208, -46.1854),
 (3530706, "Mogi Guaçu", 35, "SP", "São Paulo", -22.3675, -46.9428),
-(3530805, "Mogi Mirim", 35, "SP", "São Paulo", -22.4558, -47.0194),
+(3530805, "Mogi Mirim", 35, "SP", "São Paulo", -22.4414, -46.9547),
 (5213400, "Moiporá", 52, "GO", "Goiás", -16.5434, -50.739),
 (2804102, "Moita Bonita", 28, "SE", "Sergipe", -10.5769, -37.3512),
 (1504703, "Moju", 15, "PA", "Pará", -1.88993, -48.7668),
