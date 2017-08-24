@@ -7,7 +7,7 @@ CREATE TABLE MUNICIPIOS_BRASILEIROS(
 	LATITUDE FLOAT(8) NOT NULL,
 	LONGITUDE FLOAT(8) NOT NULL,
 	PRIMARY KEY(CODIGO_IBGE)
-),
+);
 
 INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (5200050, "Abadia de Goiás", 52, "GO", "Goiás", -16.7573, -49.4412),
@@ -5573,10 +5573,10 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (4216909, "São Lourenço do Oeste", 42, "SC", "Santa Catarina", -26.3556595, -52.8498383),
 (4207684, "Ipuaçu", 42, "SC", "Santa Catarina", -26.6349869, -52.4555931),
 (4213906, "Presidente Castello Branco", 42, "SC", "Santa Catarina", -27.2217865, -51.8089485),
-(2613107, "São Caitano", 26, "PE", "Pernambuco", -8.3376271, -36.2868983),
-(4317103, "Sant'Ana do Livramento", "RS", "Rio Grande do Sul", -30.8773, -55.5392),
-(5107792, "Santo Antônio do Leste", "MT", "Mato Grosso", -14.8050, -53.6075),
-(4314548, "Pinto Bandeira", "RS", "Rio Grande do Sul", -29.0975, -51.4503),
-(4220000, "Balneário Rincão", "SC", "Santa Catarina", -28.8314, -49.2352),
-(4212650, "Pescaria Brava", "SC", "Santa Catarina", -28.3966, -48.8864),
-(1504752, "Mojuí dos Campos", "PA", "Pará", -2.6822, -54.6425);
+(2613107, "São Caetano", 26, "PE", "Pernambuco", -8.3376271, -36.2868983),
+(4317103, "Sant'Ana do Livramento", 43, "RS", "Rio Grande do Sul", -30.8773, -55.5392),
+(5107792, "Santo Antônio do Leste", 51, "MT", "Mato Grosso", -14.8050, -53.6075),
+(4314548, "Pinto Bandeira", "RS", 43, "Rio Grande do Sul", -29.0975, -51.4503),
+(4220000, "Balneário Rincão", "SC", 42, "Santa Catarina", -28.8314, -49.2352),
+(4212650, "Pescaria Brava", "SC", 42, "Santa Catarina", -28.3966, -48.8864),
+(1504752, "Mojuí dos Campos", "PA", 15, "Pará", -2.6822, -54.6425);
