@@ -3074,7 +3074,7 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (2509404, "Mogeiro", 25, "PB", "Paraíba", -7.28517, -35.4832),
 (3530607, "Mogi das Cruzes", 35, "SP", "São Paulo", -23.5208, -46.1854),
 (3530706, "Mogi Guaçu", 35, "SP", "São Paulo", -22.3675, -46.9428),
-(3530805; "Mogi Mirim"; 35; "SP"; "São Paulo"; -22.4558; -47.0194),
+(3530805, "Mogi Mirim", 35, "SP", "São Paulo", -22.4414, -46.9547),
 (5213400, "Moiporá", 52, "GO", "Goiás", -16.5434, -50.739),
 (2804102, "Moita Bonita", 28, "SE", "Sergipe", -10.5769, -37.3512),
 (1504703, "Moju", 15, "PA", "Pará", -1.88993, -48.7668),
@@ -5574,4 +5574,3 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (4207684, "Ipuaçu", 42, "SC", "Santa Catarina", -26.6349869, -52.4555931),
 (4213906, "Presidente Castello Branco", 42, "SC", "Santa Catarina", -27.2217865, -51.8089485),
 (2613107, "São Caetano", 26, "PE", "Pernambuco", -8.3376271, -36.2868983);
-
