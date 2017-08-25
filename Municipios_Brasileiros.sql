@@ -5576,7 +5576,7 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (2613107, "São Caetano", 26, "PE", "Pernambuco", -8.3376271, -36.2868983),
 (4317103, "Sant'Ana do Livramento", 43, "RS", "Rio Grande do Sul", -30.8773, -55.5392),
 (5107792, "Santo Antônio do Leste", 51, "MT", "Mato Grosso", -14.8050, -53.6075),
-(4314548, "Pinto Bandeira", "RS", 43, "Rio Grande do Sul", -29.0975, -51.4503),
-(4220000, "Balneário Rincão", "SC", 42, "Santa Catarina", -28.8314, -49.2352),
-(4212650, "Pescaria Brava", "SC", 42, "Santa Catarina", -28.3966, -48.8864),
-(1504752, "Mojuí dos Campos", "PA", 15, "Pará", -2.6822, -54.6425);
+(4314548, "Pinto Bandeira", 43, "RS", "Rio Grande do Sul", -29.0975, -51.4503),
+(4220000, "Balneário Rincão", 42, "SC", "Santa Catarina", -28.8314, -49.2352),
+(4212650, "Pescaria Brava", 42, "SC", "Santa Catarina", -28.3966, -48.8864),
+(1504752, "Mojuí dos Campos", 15, "PA", "Pará", -2.6822, -54.6425);
