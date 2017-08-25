@@ -1,6 +1,6 @@
 # Municípios Brasileiros
 
-Arquivos `SQL` e `CSV` contendo o código IBGE, nome do município, código UF, UF, estado, latitude e longitude de todos (ou quase todos) os municípios brasileiros. Total de 5.562 registros.
+Arquivos `SQL` e `CSV` contendo o código IBGE, nome do município, código UF, UF, estado, latitude e longitude de todos (ou quase todos) os municípios brasileiros. Total de 5.570 registros.
 
 **Exemplo**:
 
@@ -12,7 +12,20 @@ Arquivos `SQL` e `CSV` contendo o código IBGE, nome do município, código UF, 
 |   3100203   | Abaeté              |     31    | MG | Minas Gerais | -19.1551 |  -45.4444 |
 
 **SQL**:
+
 ```sql
+CREATE TABLE MUNICIPIOS_BRASILEIROS(
+	CODIGO_IBGE INT NOT NULL,
+	MUNICIPIO VARCHAR(100) NOT NULL,
+	CODIGO_UF INT NOT NULL,
+	UF VARCHAR(2) NOT NULL,
+	ESTADO VARCHAR(100) NOT NULL,
+	LATITUDE FLOAT(8) NOT NULL,
+	LONGITUDE FLOAT(8) NOT NULL,
+	PRIMARY KEY(CODIGO_IBGE)
+);
+
+INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (5200050, "Abadia de Goiás", 52, "GO", "Goiás", -16.7573, -49.4412),
 (3100104, "Abadia dos Dourados", 31, "MG", "Minas Gerais", -18.4831, -47.3916),
 (5200100, "Abadiânia", 52, "GO", "Goiás", -16.1970, -48.7057),
@@ -22,6 +35,7 @@ Arquivos `SQL` e `CSV` contendo o código IBGE, nome do município, código UF, 
 (2900108, "Abaíra", 29, "BA", "Bahia", -13.2488, -41.6619),
 (2900207, "Abaré", 29, "BA", "Bahia", -8.72073, -39.1162),
 (4100103, "Abatiá", 41, "PR", "Paraná", -23.3049, -50.3133),
+...
 ```
 
 **Obs.**: o arquivo `CSV` foi gerado utilizando o **OpenOffice Calc** e codificação **UTF-8**.
