@@ -5578,4 +5578,5 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (4314548, "Pinto Bandeira", 43, "RS", "Rio Grande do Sul", -29.0975, -51.4503),
 (4220000, "Balneário Rincão", 42, "SC", "Santa Catarina", -28.8314, -49.2352),
 (4212650, "Pescaria Brava", 42, "SC", "Santa Catarina", -28.3966, -48.8864),
-(1504752, "Mojuí dos Campos", 15, "PA", "Pará", -2.6822, -54.6425);
+(1504752, "Mojuí dos Campos", 15, "PA", "Pará", -2.6822, -54.6425),
+(5006275, "Paraíso das Águas", 50, "MS", "Mato Grosso do Sul", -19.0216, -53.0116);
