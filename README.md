@@ -2,7 +2,7 @@
 
 Arquivos `SQL`, `CSV` e `JSON` contendo o código IBGE, nome do município, código UF, UF, estado, latitude e longitude de todos (ou quase todos) os municípios brasileiros. Total de 5.570 registros.
 
-**Exemplo**:
+## Exemplos
 
 | Código IBGE |  Nome do Município  | Código UF | UF |    Estado    | Latitude | Longitude |
 |:-----------:|:-------------------:|:---------:|:--:|:------------:|:--------:|:---------:|
@@ -66,3 +66,11 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 **Obs.**: o arquivo `CSV` foi gerado utilizando o **OpenOffice Calc** e codificação **UTF-8**.
 
 **Nota**: caso encontre qualquer dado inconsistente por favor crie um issue ou envie um pull request diretamente.
+
+## Contribuidores
+
+ - kelvins
+ - tranv94
+ - Julibazzi
+ - jonathancbarros
+ - M3nin0
