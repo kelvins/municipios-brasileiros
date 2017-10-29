@@ -1,0 +1,245 @@
+[
+  {
+    "Código IBGE": 1200401,
+    "Nome do Município": "Rio Branco",
+    "Código UF": 12,
+    "UF": "AC",
+    "Estado": "Acre",
+    "Latitude": -9.97499,
+    "Longitude": -67.8243
+  },
+  {
+      "Código IBGE": 2704302,
+      "Nome do Município": "Maceió",
+      "Código UF": 27,
+      "UF": "AL",
+      "Estado": "Alagoas",
+      "Latitude": -9.66599,
+      "Longitude": -35.735
+  },
+  {
+    "Código IBGE": 1600303,
+    "Nome do Município": "Macapá",
+    "Código UF": 16,
+    "UF": "AP",
+    "Estado": "Amapá",
+    "Latitude": 0.034934,
+    "Longitude": -51.0694
+  },
+  {
+    "Código IBGE": 1302603,
+    "Nome do Município": "Manaus",
+    "Código UF": 13,
+    "UF": "AM",
+    "Estado": "Amazonas",
+    "Latitude": -3.11866,
+    "Longitude": -60.0212
+  },
+  {
+    "Código IBGE": 2927408,
+    "Nome do Município": "Salvador",
+    "Código UF": 29,
+    "UF": "BA",
+    "Estado": "Bahia",
+    "Latitude": -12.9718,
+    "Longitude": -38.5011
+  },
+  {
+    "Código IBGE": 2304400,
+    "Nome do Município": "Fortaleza",
+    "Código UF": 23,
+    "UF": "CE",
+    "Estado": "Ceará",
+    "Latitude": -3.71664,
+    "Longitude": -38.5423
+  },
+  {
+    "Código IBGE": 5300108,
+    "Nome do Município": "Brasília",
+    "Código UF": 53,
+    "UF": "DF",
+    "Estado": "Distrito Federal",
+    "Latitude": -15.7795,
+    "Longitude": -47.9297
+  },
+  {
+    "Código IBGE": 3205309,
+    "Nome do Município": "Vitória",
+    "Código UF": 32,
+    "UF": "ES",
+    "Estado": "Espírito Santo",
+    "Latitude": -20.3155,
+    "Longitude": -40.3128
+  },
+  {
+    "Código IBGE": 5208707,
+    "Nome do Município": "Goiânia",
+    "Código UF": 52,
+    "UF": "GO",
+    "Estado": "Goiás",
+    "Latitude": -16.6864,
+    "Longitude": -49.2643
+  },
+  {
+    "Código IBGE": 2111300,
+    "Nome do Município": "São Luís",
+    "Código UF": 21,
+    "UF": "MA",
+    "Estado": "Maranhão",
+    "Latitude": -2.53874,
+    "Longitude": -44.2825
+  },
+  {
+    "Código IBGE": 5103403,
+    "Nome do Município": "Cuiabá",
+    "Código UF": 51,
+    "UF": "MT",
+    "Estado": "Mato Grosso",
+    "Latitude": -15.601,
+    "Longitude": -56.0974
+  },
+  {
+    "Código IBGE": 5002704,
+    "Nome do Município": "Campo Grande",
+    "Código UF": 50,
+    "UF": "MS",
+    "Estado": "Mato Grosso do Sul",
+    "Latitude": -20.4486,
+    "Longitude": -54.6295
+  },
+  {
+    "Código IBGE": 3106200,
+    "Nome do Município": "Belo Horizonte",
+    "Código UF": 31,
+    "UF": "MG",
+    "Estado": "Minas Gerais",
+    "Latitude": -19.9102,
+    "Longitude": -43.9266
+  },
+  {
+    "Código IBGE": 1501402,
+    "Nome do Município": "Belém",
+    "Código UF": 15,
+    "UF": "PA",
+    "Estado": "Pará",
+    "Latitude": -1.4554,
+    "Longitude": -48.4898
+  },
+  {
+    "Código IBGE": 2507507,
+    "Nome do Município": "João Pessoa",
+    "Código UF": 25,
+    "UF": "PB",
+    "Estado": "Paraíba",
+    "Latitude": -7.11509,
+    "Longitude": -34.8641
+  },
+  {
+    "Código IBGE": 4106902,
+    "Nome do Município": "Curitiba",
+    "Código UF": 41,
+    "UF": "PR",
+    "Estado": "Paraná",
+    "Latitude": -25.4195,
+    "Longitude": -49.2646
+  },
+  {
+    "Código IBGE": 2611606,
+    "Nome do Município": "Recife",
+    "Código UF": 26,
+    "UF": "PE",
+    "Estado": "Pernambuco",
+    "Latitude": -8.04666,
+    "Longitude": -34.8771
+  },
+  {
+    "Código IBGE": 2211001,
+    "Nome do Município": "Teresina",
+    "Código UF": 22,
+    "UF": "PI",
+    "Estado": "Piauí",
+    "Latitude": -5.09194,
+    "Longitude": -42.8034
+  },
+  {
+    "Código IBGE": 3304557,
+    "Nome do Município": "Rio de Janeiro",
+    "Código UF": 33,
+    "UF": "RJ",
+    "Estado": "Rio de Janeiro",
+    "Latitude": -22.9129,
+    "Longitude": -43.2003
+  },
+  {
+    "Código IBGE": 2408102,
+    "Nome do Município": "Natal",
+    "Código UF": 24,
+    "UF": "RN",
+    "Estado": "Rio Grande do Norte",
+    "Latitude": -5.79357,
+    "Longitude": -35.1986
+  },
+  {
+    "Código IBGE": 4314902,
+    "Nome do Município": "Porto Alegre",
+    "Código UF": 43,
+    "UF": "RS",
+    "Estado": "Rio Grande do Sul",
+    "Latitude": -30.0318,
+    "Longitude": -51.2065
+  },
+  {
+    "Código IBGE": 1100205,
+    "Nome do Município": "Porto Velho",
+    "Código UF": 11,
+    "UF": "RO",
+    "Estado": "Rondônia",
+    "Latitude": -8.76077,
+    "Longitude": -63.8999
+  },
+  {
+    "Código IBGE": 1400100,
+    "Nome do Município": "Boa Vista",
+    "Código UF": 14,
+    "UF": "RR",
+    "Estado": "Roraima",
+    "Latitude": 2.82384,
+    "Longitude": -60.6753
+  },
+  {
+    "Código IBGE": 4205407,
+    "Nome do Município": "Florianópolis",
+    "Código UF": 42,
+    "UF": "SC",
+    "Estado": "Santa Catarina",
+    "Latitude": -27.5945,
+    "Longitude": -48.5477
+  },
+  {
+    "Código IBGE": 3550308,
+    "Nome do Município": "São Paulo",
+    "Código UF": 35,
+    "UF": "SP",
+    "Estado": "São Paulo",
+    "Latitude": -23.5329,
+    "Longitude": -46.6395
+  },
+  {
+    "Código IBGE": 2800308,
+    "Nome do Município": "Aracaju",
+    "Código UF": 28,
+    "UF": "SE",
+    "Estado": "Sergipe",
+    "Latitude": -10.9091,
+    "Longitude": -37.0677
+  },
+  {
+    "Código IBGE": 1721000,
+    "Nome do Município": "Palmas",
+    "Código UF": 17,
+    "UF": "TO",
+    "Estado": "Tocantins",
+    "Latitude": -10.24,
+    "Longitude": -48.3558
+  }
+]
