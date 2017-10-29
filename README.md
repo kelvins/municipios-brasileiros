@@ -1,6 +1,6 @@
 # Municípios Brasileiros
 
-Arquivos `SQL` e `CSV` contendo o código IBGE, nome do município, código UF, UF, estado, latitude e longitude de todos (ou quase todos) os municípios brasileiros. Total de 5.570 registros.
+Arquivos `SQL`, `CSV` e `JSON` contendo o código IBGE, nome do município, código UF, UF, estado, latitude e longitude de todos (ou quase todos) os municípios brasileiros. Total de 5.570 registros.
 
 **Exemplo**:
 
@@ -11,7 +11,7 @@ Arquivos `SQL` e `CSV` contendo o código IBGE, nome do município, código UF, 
 |   5200100   | Abadiânia           |     52    | GO | Goiás        | -16.1970 |  -48.7057 |
 |   3100203   | Abaeté              |     31    | MG | Minas Gerais | -19.1551 |  -45.4444 |
 
-**SQL**:
+**Exemplo SQL**:
 
 ```sql
 CREATE TABLE MUNICIPIOS_BRASILEIROS(
@@ -36,6 +36,31 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 (2900207, "Abaré", 29, "BA", "Bahia", -8.72073, -39.1162),
 (4100103, "Abatiá", 41, "PR", "Paraná", -23.3049, -50.3133),
 ...
+```
+
+**Exemplo JSON**
+
+```json
+[
+  {
+    "Código IBGE": 5200050,
+    "Nome do Município": "Abadia de Goiás",
+    "Código UF": 52,
+    "UF": "GO",
+    "Estado": "Goiás",
+    "Latitude": -16.7573,
+    "Longitude": -49.4412
+  },
+  {
+    "Código IBGE": 3100104,
+    "Nome do Município": "Abadia dos Dourados",
+    "Código UF": 31,
+    "UF": "MG",
+    "Estado": "Minas Gerais",
+    "Latitude": -18.4831,
+    "Longitude": -47.3916
+  }
+]
 ```
 
 **Obs.**: o arquivo `CSV` foi gerado utilizando o **OpenOffice Calc** e codificação **UTF-8**.
