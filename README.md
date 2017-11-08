@@ -15,14 +15,14 @@ Arquivos `SQL`, `CSV` e `JSON` contendo o código IBGE, nome do município, cód
 
 ```sql
 CREATE TABLE MUNICIPIOS_BRASILEIROS(
-	CODIGO_IBGE INT NOT NULL,
-	MUNICIPIO VARCHAR(100) NOT NULL,
-	CODIGO_UF INT NOT NULL,
-	UF VARCHAR(2) NOT NULL,
-	ESTADO VARCHAR(100) NOT NULL,
-	LATITUDE FLOAT(8) NOT NULL,
-	LONGITUDE FLOAT(8) NOT NULL,
-	PRIMARY KEY(CODIGO_IBGE)
+    CODIGO_IBGE INT NOT NULL,
+    MUNICIPIO VARCHAR(100) NOT NULL,
+    CODIGO_UF INT NOT NULL,
+    UF VARCHAR(2) NOT NULL,
+    ESTADO VARCHAR(100) NOT NULL,
+    LATITUDE FLOAT(8) NOT NULL,
+    LONGITUDE FLOAT(8) NOT NULL,
+    PRIMARY KEY(CODIGO_IBGE)
 );
 
 INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
@@ -43,22 +43,22 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
 ```json
 [
   {
-    "Código IBGE": 5200050,
-    "Nome do Município": "Abadia de Goiás",
-    "Código UF": 52,
-    "UF": "GO",
-    "Estado": "Goiás",
-    "Latitude": -16.7573,
-    "Longitude": -49.4412
+    "codigo_ibge": 5200050,
+    "nome_municipio": "Abadia de Goiás",
+    "codigo_uf": 52,
+    "uf": "GO",
+    "estado": "Goiás",
+    "latitude": -16.7573,
+    "longitude": -49.4412
   },
   {
-    "Código IBGE": 3100104,
-    "Nome do Município": "Abadia dos Dourados",
-    "Código UF": 31,
-    "UF": "MG",
-    "Estado": "Minas Gerais",
-    "Latitude": -18.4831,
-    "Longitude": -47.3916
+    "codigo_ibge": 3100104,
+    "nome_municipio": "Abadia dos Dourados",
+    "codigo_uf": 31,
+    "uf": "MG",
+    "estado": "Minas Gerais",
+    "latitude": -18.4831,
+    "longitude": -47.3916
   }
 ]
 ```
