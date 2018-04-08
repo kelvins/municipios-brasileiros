@@ -74,3 +74,4 @@ INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
  - Julibazzi
  - jonathancbarros
  - M3nin0
+ - rncoll7
