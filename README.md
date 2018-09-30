@@ -88,3 +88,23 @@ codigo_ibge,nome_municipio,codigo_uf,uf,estado,capital,latitude,longitude
 
 Existem diversas ferramentas para trabalhar com bancos de dados e exportar os dados em outros formatos como `CSV`, `JSON`, entre outros.
 Uma ferramenta que costumo utilizar com frequência é o [DBeaver](https://dbeaver.io/), pois além de ser multiplataforma ela é simples de usar e disponibiliza vários opções para a exportação dos dados.
+
+## Queries Úteis
+
+- Mostra todas as capitais ordenando por estado:
+
+  ```sql
+  SELECT estado, uf, nome_municipio as 'capital' FROM municipios WHERE capital = TRUE ORDER BY estado;
+  ```
+
+- Mostra todos os municípios de um estado específico ordenando por nome do município:
+
+  ```sql
+  SELECT * FROM municipios WHERE uf = 'RS' ORDER BY nome_municipio;
+  ```
+
+- Mostra os registros de uma determinada região (latitude e longitude):
+
+  ```sql
+  SELECT * FROM municipios WHERE latitude >= -32.0000 AND latitude <= -27.0000 AND longitude >= -55.0000 AND longitude <= -50.0000;
+  ```
