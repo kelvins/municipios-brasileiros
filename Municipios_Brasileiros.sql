@@ -1,16 +1,16 @@
-CREATE TABLE MUNICIPIOS_BRASILEIROS(
-       CODIGO_IBGE INT NOT NULL,
-       MUNICIPIO VARCHAR(100) NOT NULL,
-       CODIGO_UF INT NOT NULL,
-       UF VARCHAR(2) NOT NULL,
-       ESTADO VARCHAR(100) NOT NULL,
-       CAPITAL BOOLEAN NOT NULL,
-       LATITUDE FLOAT(8) NOT NULL,
-       LONGITUDE FLOAT(8) NOT NULL,
-       PRIMARY KEY(CODIGO_IBGE)
+CREATE TABLE municipios(
+       codigo_ibge INT NOT NULL,
+       municipio VARCHAR(100) NOT NULL,
+       codigo_uf INT NOT NULL,
+       uf VARCHAR(2) NOT NULL,
+       estado VARCHAR(100) NOT NULL,
+       capital BOOLEAN NOT NULL,
+       latitude FLOAT(8) NOT NULL,
+       longitude FLOAT(8) NOT NULL,
+       PRIMARY KEY(codigo_ibge)
 );
 
-INSERT INTO MUNICIPIOS_BRASILEIROS VALUES
+INSERT INTO municipios VALUES
 (5200050, "Abadia de Goiás", 52, "GO", "Goiás", 0, -16.7573, -49.4412),
 (3100104, "Abadia dos Dourados", 31, "MG", "Minas Gerais", 0, -18.4831, -47.3916),
 (5200100, "Abadiânia", 52, "GO", "Goiás", 0, -16.197, -48.7057),
