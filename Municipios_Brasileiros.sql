@@ -1,6 +1,6 @@
 CREATE TABLE municipios(
        codigo_ibge INT NOT NULL,
-       municipio VARCHAR(100) NOT NULL,
+       nome_municipio VARCHAR(100) NOT NULL,
        codigo_uf INT NOT NULL,
        uf VARCHAR(2) NOT NULL,
        estado VARCHAR(100) NOT NULL,
