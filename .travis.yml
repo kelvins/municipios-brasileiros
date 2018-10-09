@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+services:
+  - postgresql
+  - mysql
+cache:
+  pip: true
+script:
+  - psql -c 'CREATE DATABASE municipios_brasileiros;' -U postgres
+  - mysql -e 'CREATE DATABASE municipios_brasileiros;'
+  - mysql municipios_brasileiros -u root < municipios_brasileiros.sql
