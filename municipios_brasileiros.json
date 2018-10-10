@@ -15,7 +15,7 @@
     "codigo_uf" : 31,
     "uf" : "MG",
     "estado" : "Minas Gerais",
-    "capital" : false,
+    "capital" : null,
     "latitude" : -18.4831,
     "longitude" : -47.3916
   },
