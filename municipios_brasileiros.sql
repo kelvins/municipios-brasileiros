@@ -5,7 +5,7 @@ CREATE TABLE municipios(
        uf VARCHAR(2) NOT NULL,
        estado VARCHAR(100) NOT NULL,
        capital BOOLEAN NOT NULL,
-       latitude FLOAT(8) NOT NULL,
+       latitude FLOAT(8) NOT NULL
        longitude FLOAT(8) NOT NULL,
        PRIMARY KEY(codigo_ibge)
 );
