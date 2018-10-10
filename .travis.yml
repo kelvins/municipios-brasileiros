@@ -4,8 +4,6 @@ python:
 services:
   - postgresql
   - mysql
-cache:
-  pip: true
 script:
   - psql -c 'CREATE DATABASE municipios_brasileiros;' -U postgres
   - psql -v ON_ERROR_STOP=1 --username=postgres municipios_brasileiros < municipios_brasileiros.sql
