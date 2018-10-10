@@ -8,5 +8,6 @@ cache:
   pip: true
 script:
   - psql -c 'CREATE DATABASE municipios_brasileiros;' -U postgres
+  - psql --username=postgres municipios_brasileiros < municipios_brasileiros.sql
   - mysql -e 'CREATE DATABASE municipios_brasileiros;'
   - mysql municipios_brasileiros -u root < municipios_brasileiros.sql
