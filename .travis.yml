@@ -4,8 +4,6 @@ python:
 services:
   - postgresql
   - mysql
-cache:
-  pip: true
 install:
   - pip install simplejson
 script:
