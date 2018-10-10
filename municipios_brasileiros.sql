@@ -5,7 +5,7 @@ CREATE TABLE municipios(
        uf VARCHAR(2) NOT NULL,
        estado VARCHAR(100) NOT NULL,
        capital BOOLEAN NOT NULL,
-       latitude FLOAT(8) NOT NULL
+       latitude FLOAT(8) NOT NULL,
        longitude FLOAT(8) NOT NULL,
        PRIMARY KEY(codigo_ibge)
 );
@@ -15,7 +15,7 @@ INSERT INTO municipios VALUES
 (3100104, 'Abadia dos Dourados', 31, 'MG', 'Minas Gerais', FALSE, -18.4831, -47.3916),
 (5200100, 'Abadiânia', 52, 'GO', 'Goiás', FALSE, -16.197, -48.7057),
 (3100203, 'Abaeté', 31, 'MG', 'Minas Gerais', FALSE, -19.1551, -45.4444),
-(1500107, 'Abaetetuba', 15, 'PA', 'Pará', FALSE, -1.72183, -48.8788),
+(1500107, 'Abaetetuba', 15, 'PA', 'Pará', -1.72183, -48.8788),
 (2300101, 'Abaiara', 23, 'CE', 'Ceará', FALSE, -7.34588, -39.0416),
 (2900108, 'Abaíra', 29, 'BA', 'Bahia', FALSE, -13.2488, -41.6619),
 (2900207, 'Abaré', 29, 'BA', 'Bahia', FALSE, -8.72073, -39.1162),
