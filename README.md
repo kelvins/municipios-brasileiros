@@ -48,9 +48,9 @@ CREATE TABLE municipios(
 );
 
 INSERT INTO municipios VALUES
-(5200050, 'Abadia de Goiás', -16.7573, -49.4412, 0, 52),
-(3100104, 'Abadia dos Dourados', -18.4831, -47.3916, 0, 31),
-(5200100, 'Abadiânia', -16.197, -48.7057, 0, 52),
+(5200050, 'Abadia de Goiás', -16.7573, -49.4412, FALSE, 52),
+(3100104, 'Abadia dos Dourados', -18.4831, -47.3916, FALSE, 31),
+(5200100, 'Abadiânia', -16.197, -48.7057, FALSE, 52),
 ...
 ```
 
@@ -96,8 +96,7 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf
     "codigo_uf" : 13,
     "uf" : "AM",
     "nome" : "Amazonas"
-  },
-  ...
+  }
 ]
 ```
 
@@ -110,7 +109,7 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf
     "nome" : "Abadia de Goiás",
     "latitude" : -16.7573,
     "longitude" : -49.4412,
-    "capital" : 0,
+    "capital" : false,
     "codigo_uf" : 52
   },
   {
@@ -118,7 +117,7 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf
     "nome" : "Abadia dos Dourados",
     "latitude" : -18.4831,
     "longitude" : -47.3916,
-    "capital" : 0,
+    "capital" : false,
     "codigo_uf" : 31
   },
   {
@@ -126,10 +125,9 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf
     "nome" : "Abadiânia",
     "latitude" : -16.197,
     "longitude" : -48.7057,
-    "capital" : 0,
+    "capital" : false,
     "codigo_uf" : 52
-  },
-  ...
+  }
 ]
 ```
 
