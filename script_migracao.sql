@@ -2,7 +2,7 @@ CREATE TABLE estados(
     codigo_uf INT NOT NULL,
     uf VARCHAR(2) NOT NULL,
     nome VARCHAR(100) NOT NULL,
-    PRIMARY KE (codigo_uf)
+    PRIMARY KEY (codigo_uf)
 );
 
 CREATE TABLE municipios(
@@ -13,7 +13,7 @@ CREATE TABLE municipios(
     capital BOOLEAN NOT NULL,
     codigo_uf INT NOT NULL,
     PRIMARY KEY (codigo_ibge),
-    FOREIGN KEY (codigo_uf) REFERENCES estado (codigo_uf)
+    FOREIGN KEY (codigo_uf) REFERENCES estados (codigo_uf)
 );
 
 INSERT INTO estados (codigo_uf, uf, nome) 
