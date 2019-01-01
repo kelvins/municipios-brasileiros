@@ -136,4 +136,4 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf
 ## Exportação dos Dados
 
 Existem diversas ferramentas para trabalhar com bancos de dados e exportar os dados em outros formatos como `CSV`, `JSON`, entre outros.
-Uma ferramenta que costumo utilizar com frequência é o [DBeaver](https://dbeaver.io/), pois além de ser multiplataforma ela é simples de usar e disponibiliza vários opções para a exportação dos dados.
+Uma ferramenta que costumo utilizar com frequência é o [DBeaver](https://dbeaver.io/), pois além de ser multiplataforma ela é simples de usar e disponibiliza várias opções para a exportação dos dados.
