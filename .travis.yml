@@ -1,14 +1,20 @@
 language: python
+
 python:
   - "2.7"
+
 services:
   - postgresql
   - mysql
+
 install:
   - pip install simplejson
+
 script:
   - psql -c 'CREATE DATABASE municipios_brasileiros;' -U postgres
-  - psql -v ON_ERROR_STOP=1 --username=postgres municipios_brasileiros < municipios_brasileiros.sql
+  - psql -v ON_ERROR_STOP=1 --username=postgres municipios_brasileiros < sql/estados.sql
+  - psql -v ON_ERROR_STOP=1 --username=postgres municipios_brasileiros < sql/municipios.sql
   - mysql -e 'CREATE DATABASE municipios_brasileiros;'
-  - mysql municipios_brasileiros -u root < municipios_brasileiros.sql
+  - mysql municipios_brasileiros -u root < sql/estados.sql
+  - mysql municipios_brasileiros -u root < sql/municipios.sql
   - python scripts/validate_files.py
