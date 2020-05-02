@@ -23,13 +23,15 @@ CREATE TABLE estados(
     codigo_uf INT NOT NULL,
     uf VARCHAR(2) NOT NULL,
     nome VARCHAR(100) NOT NULL,
+    latitude FLOAT(8) NOT NULL,
+    longitude FLOAT(8) NOT NULL,
     PRIMARY KEY (codigo_uf)
 );
 
 INSERT INTO estados VALUES
-(11, 'RO', 'Rondônia'),
-(12, 'AC', 'Acre'),
-(13, 'AM', 'Amazonas'),
+(11,'RO','Rondônia',-10.83,-63.34),
+(12,'AC','Acre',-8.77,-70.55),
+(13,'AM','Amazonas',-3.47,-65.1),
 ...
 ```
 
@@ -60,9 +62,9 @@ INSERT INTO municipios VALUES
 
 ```csv
 codigo_uf,uf,nome
-11,RO,Rondônia
-12,AC,Acre
-13,AM,Amazonas
+11,RO,Rondônia,-10.83,-63.34
+12,AC,Acre,-8.77,-70.55
+13,AM,Amazonas,-3.47,-65.1
 ...
 ```
 
@@ -83,19 +85,25 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf
 ```json
 [
   {
-    "codigo_uf" : 11,
-    "uf" : "RO",
-    "nome" : "Rondônia"
+    "codigo_uf": 11,
+    "uf": "RO",
+    "nome": "Rondônia",
+    "latitude": -10.83,
+    "longitude": -63.34
   },
   {
-    "codigo_uf" : 12,
-    "uf" : "AC",
-    "nome" : "Acre"
+    "codigo_uf": 12,
+    "uf": "AC",
+    "nome": "Acre",
+    "latitude": -8.77,
+    "longitude": -70.55
   },
   {
-    "codigo_uf" : 13,
-    "uf" : "AM",
-    "nome" : "Amazonas"
+    "codigo_uf": 13,
+    "uf": "AM",
+    "nome": "Amazonas",
+    "latitude": -3.47,
+    "longitude": -65.1
   }
 ]
 ```
