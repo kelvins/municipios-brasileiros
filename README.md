@@ -145,3 +145,9 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf
 
 Existem diversas ferramentas para trabalhar com bancos de dados e exportar os dados em outros formatos como `CSV`, `JSON`, entre outros.
 Uma ferramenta que costumo utilizar com frequência é o [DBeaver](https://dbeaver.io/), pois além de ser multiplataforma ela é simples de usar e disponibiliza várias opções para a exportação dos dados.
+
+## Serviço de Dados do IBGE
+
+Hoje o IBGE conta com um serviço de dados que disponibiliza diversas informações sobre as localidades do Brasil.
+
+A API do IBGE pode ser acessada pelo seguinte endereço: https://servicodados.ibge.gov.br/api/docs/localidades
