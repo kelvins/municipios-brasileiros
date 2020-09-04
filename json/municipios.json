@@ -21664,7 +21664,7 @@
 		"codigo_uf" : 24
 	},
 	{
-		"codigo_ibge" : 2918803,
+		"codigo_ibge" : 2918753,
 		"nome" : "Lagoa Real",
 		"latitude" : -14.0334,
 		"longitude" : -42.1328,
@@ -21752,7 +21752,7 @@
 		"codigo_uf" : 50
 	},
 	{
-		"codigo_ibge" : 2918902,
+		"codigo_ibge" : 2918803,
 		"nome" : "Laje",
 		"latitude" : -13.1673,
 		"longitude" : -39.4213,
@@ -21808,7 +21808,7 @@
 		"codigo_uf" : 21
 	},
 	{
-		"codigo_ibge" : 2919009,
+		"codigo_ibge" : 2918902,
 		"nome" : "Lajedão",
 		"latitude" : -17.6056,
 		"longitude" : -40.3383,
@@ -21816,7 +21816,7 @@
 		"codigo_uf" : 29
 	},
 	{
-		"codigo_ibge" : 2919058,
+		"codigo_ibge" : 2919009,
 		"nome" : "Lajedinho",
 		"latitude" : -12.3529,
 		"longitude" : -40.9048,
@@ -21832,7 +21832,7 @@
 		"codigo_uf" : 26
 	},
 	{
-		"codigo_ibge" : 2918753,
+		"codigo_ibge" : 2919058,
 		"nome" : "Lajedo do Tabocal",
 		"latitude" : -13.4663,
 		"longitude" : -40.2204,
@@ -35920,7 +35920,7 @@
 		"codigo_uf" : 41
 	},
 	{
-		"codigo_ibge" : 4215695,
+		"codigo_ibge" : 4215687,
 		"nome" : "Santa Terezinha do Progresso",
 		"latitude" : -26.624,
 		"longitude" : -53.1997,
@@ -36216,7 +36216,7 @@
 		"codigo_uf" : 43
 	},
 	{
-		"codigo_ibge" : 4215687,
+		"codigo_ibge" : 4215695,
 		"nome" : "Santiago do Sul",
 		"latitude" : -26.6388,
 		"longitude" : -52.6799,
