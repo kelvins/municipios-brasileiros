@@ -46,18 +46,17 @@ CREATE TABLE municipios(
     longitude FLOAT(8) NOT NULL,
     capital BOOLEAN NOT NULL,
     codigo_uf INT NOT NULL,
-    siafi_id INT NOT NULL,
+    siafi_id VARCHAR(4) NOT NULL UNIQUE,
     ddd INT NOT NULL,
-    fuso_horario VARCHAR(50),
-    PRIMARY KEY (codigo_ibge)
-    FOREIGN KEY (codigo_uf) REFERENCES estados (codigo_uf),
+    fuso_horario VARCHAR(32) NOT NULL,
+    PRIMARY KEY (codigo_ibge),
+    FOREIGN KEY (codigo_uf) REFERENCES estados (codigo_uf)
 );
 
 INSERT INTO municipios VALUES
-(5200050,'Abadia de Goiás',-16.7573,-49.4412,FALSE,52,1050,62,'America/Sao_Paulo'),
-(3100104,'Abadia dos Dourados',-18.4831,-47.3916,FALSE,31,4001,34,'America/Sao_Paulo'),
-(5200100,'Abadiânia',-16.197,-48.7057,FALSE,52,9201,62,'America/Sao_Paulo'),
-
+(5200050,'Abadia de Goiás',-16.7573,-49.4412,TRUE,52,'1050',62,'America/Sao_Paulo'),
+(3100104,'Abadia dos Dourados',-18.4831,-47.3916,TRUE,31,'4001',34,'America/Sao_Paulo'),
+(5200100,'Abadiânia',-16.197,-48.7057,TRUE,52,'9201',62,'America/Sao_Paulo'),
 ...
 ```
 
