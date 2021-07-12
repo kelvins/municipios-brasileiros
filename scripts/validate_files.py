@@ -7,14 +7,10 @@ import json
 DIR = os.path.dirname(__file__)
 
 # Cria os parametros do logger
-logger = logging.getLogger('validate_files')
-logger.setLevel(logging.INFO)
-
-f_handler = logging.FileHandler(os.path.join(DIR, '../Validation.log'), encoding='utf-8')
-f_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d-%m-%Y %H:%M:%S')
-
-f_handler.setFormatter(f_format)
-logger.addHandler(f_handler)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 
 
 def check_dict(items):
@@ -41,7 +37,6 @@ def check_dict(items):
         ])
 
         if invalid_item:
-            logger.error(f'Dados inválidos em {item}')
             raise KeyError('Dados inválidos nesse item:', item)
 
 
@@ -52,13 +47,13 @@ def check_files(file_paths):
         file_paths (List[str]): Lista com caminho para os arquivos.
     """
     for file_path in file_paths:
-        logger.info(f'Verificando o arquivo {file_path}')
+        logging.info(f'Verificando o arquivo {file_path}')
         with open(os.path.join(DIR, file_path), encoding='utf-8-sig', mode='r') as f:
             if file_path.endswith('.json'):
                 check_dict(json.loads(f.read()))
             elif file_path.endswith('.csv'):
                 check_dict(csv.DictReader(f))
-            logger.info(f"Tudo certo com o arquivo {file_path}")
+            logging.info(f"Tudo certo com o arquivo {file_path}")
 
 
 if __name__ == '__main__':
