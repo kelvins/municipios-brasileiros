@@ -2,16 +2,25 @@
 import os
 import csv
 import logging
-import simplejson
+import json
 
 DIR = os.path.dirname(__file__)
 
-logging.basicConfig(level=logging.INFO)
+# Cria os parametros do logger
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 
 
 def check_dict(items):
-    """
-    Check if there is a missing key or an invalid value.
+    """Verifica se há valores inválidos nos dicts.
+
+    Args:
+        items (List[Dict]): Dicts a serem verificados
+
+    Raises:
+        KeyError: Se existir algum valor inválido no dict.
     """
     len_keys = None
 
@@ -28,18 +37,23 @@ def check_dict(items):
         ])
 
         if invalid_item:
-            raise KeyError('Invalid key or value')
+            raise KeyError('Dados inválidos nesse item:', item)
 
 
 def check_files(file_paths):
-    """Check all files from the file_paths list"""
+    """Verifica todos os arquivos da lista de caminhos de arquivo.
+
+    Args:
+        file_paths (List[str]): Lista com caminho para os arquivos.
+    """
     for file_path in file_paths:
-        logging.info('Checking file %s', file_path)
-        with open(os.path.join(DIR, file_path), 'r') as f:
+        logging.info(f'Verificando o arquivo {file_path}')
+        with open(os.path.join(DIR, file_path), encoding='utf-8-sig', mode='r') as f:
             if file_path.endswith('.json'):
-                check_dict(simplejson.loads(f.read()))
+                check_dict(json.loads(f.read()))
             elif file_path.endswith('.csv'):
                 check_dict(csv.DictReader(f))
+            logging.info(f"Tudo certo com o arquivo {file_path}")
 
 
 if __name__ == '__main__':
@@ -50,4 +64,3 @@ if __name__ == '__main__':
         '../csv/municipios.csv',
     ]
     check_files(file_paths)
-
