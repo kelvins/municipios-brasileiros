@@ -54,9 +54,9 @@ CREATE TABLE municipios(
 );
 
 INSERT INTO municipios VALUES
-(5200050,'Abadia de Goiás',-16.7573,-49.4412,TRUE,52,'1050',62,'America/Sao_Paulo'),
-(3100104,'Abadia dos Dourados',-18.4831,-47.3916,TRUE,31,'4001',34,'America/Sao_Paulo'),
-(5200100,'Abadiânia',-16.197,-48.7057,TRUE,52,'9201',62,'America/Sao_Paulo'),
+(5200050,'Abadia de Goiás',-16.7573,-49.4412,FALSE,52,'1050',62,'America/Sao_Paulo'),
+(3100104,'Abadia dos Dourados',-18.4831,-47.3916,FALSE,31,'4001',34,'America/Sao_Paulo'),
+(5200100,'Abadiânia',-16.197,-48.7057,FALSE,52,'9201',62,'America/Sao_Paulo'),
 ...
 ```
 
