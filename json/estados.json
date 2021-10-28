@@ -4,188 +4,215 @@
 		"uf": "RO",
 		"nome": "Rondônia",
 		"latitude": -10.83,
-		"longitude": -63.34
+		"longitude": -63.34,
+		"regiao": "Norte"
 	},
 	{
 		"codigo_uf": 12,
 		"uf": "AC",
 		"nome": "Acre",
 		"latitude": -8.77,
-		"longitude": -70.55
+		"longitude": -70.55,
+		"regiao": "Norte"
 	},
 	{
 		"codigo_uf": 13,
 		"uf": "AM",
 		"nome": "Amazonas",
 		"latitude": -3.47,
-		"longitude": -65.1
+		"longitude": -65.1,
+		"regiao": "Norte"
 	},
 	{
 		"codigo_uf": 14,
 		"uf": "RR",
 		"nome": "Roraima",
 		"latitude": 1.99,
-		"longitude": -61.33
+		"longitude": -61.33,
+		"regiao": "Norte"
 	},
 	{
 		"codigo_uf": 15,
 		"uf": "PA",
 		"nome": "Pará",
 		"latitude": -3.79,
-		"longitude": -52.48
+		"longitude": -52.48,
+		"regiao": "Norte"
 	},
 	{
 		"codigo_uf": 16,
 		"uf": "AP",
 		"nome": "Amapá",
 		"latitude": 1.41,
-		"longitude": -51.77
+		"longitude": -51.77,
+		"regiao": "Norte"
 	},
 	{
 		"codigo_uf": 17,
 		"uf": "TO",
 		"nome": "Tocantins",
 		"latitude": -9.46,
-		"longitude": -48.26
+		"longitude": -48.26,
+		"regiao": "Norte"
 	},
 	{
 		"codigo_uf": 21,
 		"uf": "MA",
 		"nome": "Maranhão",
 		"latitude": -5.42,
-		"longitude": -45.44
+		"longitude": -45.44,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 22,
 		"uf": "PI",
 		"nome": "Piauí",
 		"latitude": -6.6,
-		"longitude": -42.28
+		"longitude": -42.28,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 23,
 		"uf": "CE",
 		"nome": "Ceará",
 		"latitude": -5.2,
-		"longitude": -39.53
+		"longitude": -39.53,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 24,
 		"uf": "RN",
 		"nome": "Rio Grande do Norte",
 		"latitude": -5.81,
-		"longitude": -36.59
+		"longitude": -36.59,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 25,
 		"uf": "PB",
 		"nome": "Paraíba",
 		"latitude": -7.28,
-		"longitude": -36.72
+		"longitude": -36.72,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 26,
 		"uf": "PE",
 		"nome": "Pernambuco",
 		"latitude": -8.38,
-		"longitude": -37.86
+		"longitude": -37.86,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 27,
 		"uf": "AL",
 		"nome": "Alagoas",
 		"latitude": -9.62,
-		"longitude": -36.82
+		"longitude": -36.82,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 28,
 		"uf": "SE",
 		"nome": "Sergipe",
 		"latitude": -10.57,
-		"longitude": -37.45
+		"longitude": -37.45,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 29,
 		"uf": "BA",
 		"nome": "Bahia",
 		"latitude": -13.29,
-		"longitude": -41.71
+		"longitude": -41.71,
+		"regiao": "Nordeste"
 	},
 	{
 		"codigo_uf": 31,
 		"uf": "MG",
 		"nome": "Minas Gerais",
 		"latitude": -18.1,
-		"longitude": -44.38
+		"longitude": -44.38,
+		"regiao": "Sudeste"
 	},
 	{
 		"codigo_uf": 32,
 		"uf": "ES",
 		"nome": "Espírito Santo",
 		"latitude": -19.19,
-		"longitude": -40.34
+		"longitude": -40.34,
+		"regiao": "Sudeste"
 	},
 	{
 		"codigo_uf": 33,
 		"uf": "RJ",
 		"nome": "Rio de Janeiro",
 		"latitude": -22.25,
-		"longitude": -42.66
+		"longitude": -42.66,
+		"regiao": "Sudeste"
 	},
 	{
 		"codigo_uf": 35,
 		"uf": "SP",
 		"nome": "São Paulo",
 		"latitude": -22.19,
-		"longitude": -48.79
+		"longitude": -48.79,
+		"regiao": "Sudeste"
 	},
 	{
 		"codigo_uf": 41,
 		"uf": "PR",
 		"nome": "Paraná",
 		"latitude": -24.89,
-		"longitude": -51.55
+		"longitude": -51.55,
+		"regiao": "Sul"
 	},
 	{
 		"codigo_uf": 42,
 		"uf": "SC",
 		"nome": "Santa Catarina",
 		"latitude": -27.45,
-		"longitude": -50.95
+		"longitude": -50.95,
+		"regiao": "Sul"
 	},
 	{
 		"codigo_uf": 43,
 		"uf": "RS",
 		"nome": "Rio Grande do Sul",
 		"latitude": -30.17,
-		"longitude": -53.5
+		"longitude": -53.5,
+		"regiao": "Sul"
 	},
 	{
 		"codigo_uf": 50,
 		"uf": "MS",
 		"nome": "Mato Grosso do Sul",
 		"latitude": -20.51,
-		"longitude": -54.54
+		"longitude": -54.54,
+		"regiao": "Centro-Oeste"
 	},
 	{
 		"codigo_uf": 51,
 		"uf": "MT",
 		"nome": "Mato Grosso",
 		"latitude": -12.64,
-		"longitude": -55.42
+		"longitude": -55.42,
+		"regiao": "Centro-Oeste"
 	},
 	{
 		"codigo_uf": 52,
 		"uf": "GO",
 		"nome": "Goiás",
 		"latitude": -15.98,
-		"longitude": -49.86
+		"longitude": -49.86,
+		"regiao": "Centro-Oeste"
 	},
 	{
 		"codigo_uf": 53,
 		"uf": "DF",
 		"nome": "Distrito Federal",
 		"latitude": -15.83,
-		"longitude": -47.86
+		"longitude": -47.86,
+		"regiao": "Centro-Oeste"
 	}
 ]
