@@ -6,14 +6,14 @@ Arquivos `SQL`, `CSV` e `JSON` contendo o código IBGE, nome do município, capi
 
 ### Dados
 
-| Código IBGE |  Nome do Município  | Código UF | UF  |      Estado       | Capital | Latitude | Longitude | Código Siafi | DDD |    Fuso Horário     |
-| :---------: | :-----------------: | :-------: | :-: | :---------------: | :-----: | :------: | :-------: | :----------: | :-: | :-----------------: |
-|   5200050   |   Abadia de Goiás   |    52     | GO  |       Goiás       |    0    | -16.7573 | -49.4412  |     1050     | 62  |  America/Sao_Paulo  |
-|   3100104   | Abadia dos Dourados |    31     | MG  |   Minas Gerais    |    0    | -18.4831 | -47.3916  |     4001     | 34  |  America/Sao_Paulo  |
-|   5200100   |      Abadiânia      |    52     | GO  |       Goiás       |    0    | -16.1970 | -48.7057  |     9201     | 62  |  America/Sao_Paulo  |
-|   3100203   |       Abaeté        |    31     | MG  |   Minas Gerais    |    0    | -19.1551 | -45.4444  |     4003     | 37  |  America/Sao_Paulo  |
-|   4314902   |    Porto Alegre     |    43     | RS  | Rio Grande do Sul |    1    | -30.0318 | -51.2065  |     8801     | 51  |  America/Sao_Paulo  |
-|   5106752   |  Pontes e Lacerda   |    51     | MT  |    Mato Grosso    |    0    | -15.2219 | -59.3435  |     8999     | 65  | America/Porto_Velho |
+| Código IBGE |  Nome do Município  | Código UF | UF  |      Estado       | Capital | Latitude | Longitude |    Região    | Código Siafi | DDD |    Fuso Horário     |
+| :---------: | :-----------------: | :-------: | :-: | :---------------: | :-----: | :------: | :-------: | :----------: | :----------: | :-: | :-----------------: |
+|   5200050   |   Abadia de Goiás   |    52     | GO  |       Goiás       |    0    | -16.7573 | -49.4412  | Centro-Oeste |     1050     | 62  |  America/Sao_Paulo  |
+|   3100104   | Abadia dos Dourados |    31     | MG  |   Minas Gerais    |    0    | -18.4831 | -47.3916  |   Sudeste    |     4001     | 34  |  America/Sao_Paulo  |
+|   5200100   |      Abadiânia      |    52     | GO  |       Goiás       |    0    | -16.1970 | -48.7057  | Centro-Oeste |     9201     | 62  |  America/Sao_Paulo  |
+|   3100203   |       Abaeté        |    31     | MG  |   Minas Gerais    |    0    | -19.1551 | -45.4444  |   Sudeste    |     4003     | 37  |  America/Sao_Paulo  |
+|   4314902   |    Porto Alegre     |    43     | RS  | Rio Grande do Sul |    1    | -30.0318 | -51.2065  |     Sul      |     8801     | 51  |  America/Sao_Paulo  |
+|   5106752   |  Pontes e Lacerda   |    51     | MT  |    Mato Grosso    |    0    | -15.2219 | -59.3435  | Centro-Oeste |     8999     | 65  | America/Porto_Velho |
 
 ### Exemplo SQL
 
