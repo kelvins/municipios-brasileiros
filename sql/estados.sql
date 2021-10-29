@@ -19,7 +19,7 @@ INSERT INTO estados VALUES
 (21,'MA','Maranhão',-5.42,-45.44,'Nordeste'),
 (22,'PI','Piauí',-6.6,-42.28,'Nordeste'),
 (23,'CE','Ceará',-5.2,-39.53,'Nordeste'),
-(24,'RN','Rio Grande do Nordeste',-5.81,-36.59,'Nordeste'),
+(24,'RN','Rio Grande do Norte',-5.81,-36.59,'Nordeste'),
 (25,'PB','Paraíba',-7.28,-36.72,'Nordeste'),
 (26,'PE','Pernambuco',-8.38,-37.86,'Nordeste'),
 (27,'AL','Alagoas',-9.62,-36.82,'Nordeste'),
