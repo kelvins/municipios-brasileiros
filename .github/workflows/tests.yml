@@ -1,0 +1,15 @@
+name: Automatic tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  files: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+    
+      - name: Validate files
+        run: python ./scripts/validate_files.py
