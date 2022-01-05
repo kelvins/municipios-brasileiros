@@ -1,3 +1,4 @@
+name: tests
 on:
   push:
     branches: [main]
@@ -37,3 +38,28 @@ jobs:
 
       - name: Insert municipios
         run: psql -v ON_ERROR_STOP=1 --host=127.0.0.1 --username=postgres municipios_brasileiros < ./sql/municipios.sql
+
+  mysql: 
+    runs-on: ubuntu-latest
+    services:
+      database:
+        image: mariadb
+        env:
+          MYSQL_DATABASE: municipios_brasileiros
+          MYSQL_ALLOW_EMPTY_PASSWORD: true
+        options: >-
+          --health-cmd "mysqladmin ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 3306:3306
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Insert estados
+        run: mysql municipios_brasileiros --host=127.0.0.1 -u root < ./sql/estados.sql
+
+      - name: Insert municipios
+        run: mysql municipios_brasileiros --host=127.0.0.1 -u root < ./sql/municipios.sql
