@@ -1,4 +1,4 @@
-# Municípios Brasileiros [![Build Status](https://travis-ci.com/kelvins/Municipios-Brasileiros.svg?branch=main)](https://travis-ci.com/kelvins/Municipios-Brasileiros)
+# Municípios Brasileiros [![Build Status](https://img.shields.io/github/checks-status/kelvins/Municipios-Brasileiros/main)](https://github.com/kelvins/Municipios-Brasileiros/actions)
 
 Arquivos `SQL`, `CSV` e `JSON` contendo o código IBGE, nome do município, capital, código UF, UF, estado, latitude, longitude, código SIAFI, DDD e fuso horário de todos (ou quase todos) os municípios brasileiros. Total de 5.570 registros.
 
