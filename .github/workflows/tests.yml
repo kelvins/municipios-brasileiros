@@ -1,0 +1,65 @@
+name: tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  files: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+    
+      - name: Validate files
+        run: python ./scripts/validate_files.py
+
+  postgres: 
+    runs-on: ubuntu-latest
+    services:
+      database:
+        image: postgres
+        env:
+          POSTGRES_DB: municipios_brasileiros
+          POSTGRES_HOST_AUTH_METHOD: trust
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Insert estados
+        run: psql -v ON_ERROR_STOP=1 --host=127.0.0.1 --username=postgres municipios_brasileiros < ./sql/estados.sql
+
+      - name: Insert municipios
+        run: psql -v ON_ERROR_STOP=1 --host=127.0.0.1 --username=postgres municipios_brasileiros < ./sql/municipios.sql
+
+  mysql: 
+    runs-on: ubuntu-latest
+    services:
+      database:
+        image: mariadb
+        env:
+          MYSQL_DATABASE: municipios_brasileiros
+          MYSQL_ALLOW_EMPTY_PASSWORD: true
+        options: >-
+          --health-cmd "mysqladmin ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 3306:3306
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Insert estados
+        run: mysql municipios_brasileiros --host=127.0.0.1 -u root < ./sql/estados.sql
+
+      - name: Insert municipios
+        run: mysql municipios_brasileiros --host=127.0.0.1 -u root < ./sql/municipios.sql
