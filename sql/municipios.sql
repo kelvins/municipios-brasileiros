@@ -2621,7 +2621,7 @@ INSERT INTO municipios VALUES
 (4311155,'Jóia',-28.6435,-54.1141,FALSE,43,'9829',55,'America/Sao_Paulo'),
 (4209102,'Joinville',-26.3045,-48.8487,FALSE,42,'8179',47,'America/Sao_Paulo'),
 (3136504,'Jordânia',-15.9009,-40.1841,FALSE,31,'4729',33,'America/Sao_Paulo'),
-(1200328,'Jordão',-9.43091,-71.8974,FALSE,12,'0653',68,'America/Rio_Branco'),
+(1200328,'Jordão',-9.1908,-71.9503,FALSE,12,'0653',68,'America/Rio_Branco'),
 (4209151,'José Boiteux',-26.9566,-49.6286,FALSE,42,'9957',47,'America/Sao_Paulo'),
 (3525706,'José Bonifácio',-21.0551,-49.6892,FALSE,35,'6615',17,'America/Sao_Paulo'),
 (2406007,'José da Penha',-6.31095,-38.2823,FALSE,24,'1717',84,'America/Sao_Paulo'),
