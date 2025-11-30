@@ -4616,7 +4616,7 @@ INSERT INTO municipios VALUES
 (2708204,'São Brás',-10.1141,-36.8522,FALSE,27,'2863',82,'America/Sao_Paulo'),
 (3160900,'São Brás do Suaçuí',-20.6242,-43.9515,FALSE,31,'5217',31,'America/Sao_Paulo'),
 (2209559,'São Braz do Piauí',-9.05797,-43.0076,FALSE,22,'2263',89,'America/Sao_Paulo'),
-(2613107,'São Caetano',-8.33763,-36.2869,FALSE,26,'2561',81,'America/Sao_Paulo'),
+(2613107,'São Caitano',-8.33763,-36.2869,FALSE,26,'2561',81,'America/Sao_Paulo'),
 (1507102,'São Caetano de Odivelas',-0.747293,-48.0246,FALSE,15,'0541',91,'America/Sao_Paulo'),
 (3548807,'São Caetano do Sul',-23.6229,-46.5548,FALSE,35,'7077',11,'America/Sao_Paulo'),
 (3548906,'São Carlos',-22.0174,-47.886,FALSE,35,'7079',16,'America/Sao_Paulo'),
