@@ -6996,6 +6996,17 @@
         "fuso_horario": "America\/Sao_Paulo"
     },
     {
+        "codigo_ibge": 5101837,
+        "nome": "Boa Esperança do Norte",
+        "latitude": -13.5067,
+        "longitude": -55.1486,
+        "capital": 0,
+        "codigo_uf": 51,
+        "siafi_id": 1182,
+        "ddd": 66,
+        "fuso_horario": "America\/Porto_Velho"
+    },
+    {
         "codigo_ibge": 3506706,
         "nome": "Boa Esperança do Sul",
         "latitude": -21.9918,

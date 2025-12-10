@@ -649,6 +649,7 @@ INSERT INTO municipios VALUES
 (3107109,'Boa Esperança',-21.0927,-45.5612,FALSE,31,'4141',35,'America/Sao_Paulo'),
 (3201001,'Boa Esperança',-18.5395,-40.3025,FALSE,32,'5619',27,'America/Sao_Paulo'),
 (4103024,'Boa Esperança do Iguaçu',-25.6324,-53.2108,FALSE,41,'5471',46,'America/Sao_Paulo'),
+(5101837,'Boa Esperança do Norte',-13.5067,-55.1486,FALSE,51,'1182',66,'America/Porto_Velho'),
 (3506706,'Boa Esperança do Sul',-21.9918,-48.3906,FALSE,35,'6233',16,'America/Sao_Paulo'),
 (2201770,'Boa Hora',-4.41404,-42.1357,FALSE,22,'0280',86,'America/Sao_Paulo'),
 (2903706,'Boa Nova',-14.3598,-40.2064,FALSE,29,'3373',77,'America/Sao_Paulo'),
